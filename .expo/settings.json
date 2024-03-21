@@ -1,0 +1,9 @@
+{
+  "hostType": "tunnel",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "urlRandomness": "5n-j6r",
+  "https": false,
+  "scheme": "exp+project-oversight"
+}

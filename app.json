@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/Icon_POS.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "name": "Project-Oversight",
+    "slug": "Project-Oversight",
+    "version": "1.0.14",
+    "orientation": "portrait",
+    "icon": "./assets/Icon_POS.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.epicminds.pos",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "whatsapp"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Icon_POS.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.epicminds.pos",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCv0JdNCgXTVLSoopO88cbDYhu6q-ON3f0"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5c34424f-bd8b-4d46-b782-3d6d00621155"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      }
+    }
+  }
+}
